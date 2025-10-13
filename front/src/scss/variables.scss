@@ -1,0 +1,58 @@
+// light version
+$color-main-background: rgb(253, 241, 133);;
+$color-second-background: #ffe100;
+$color-primary: #007AFF;
+$color-text-primary: #141515;
+$color-text-secondary: #7A8699;
+$color-redlight: #FD5353;
+$color-primary-highlight: #E5F2FF;
+
+// fonts size
+$font10: 10px;
+$font12: 12px;
+$font14: 14px;
+$font16: 16px;
+$font18: 18px;
+$font32: 32px;
+
+// fonts weight
+$fontB: 700;
+$fontMed: 500;
+$fontSemiB: 600;
+$fontRegular: 400;
+
+// borders
+
+
+// flex variables
+@mixin flex-column-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+@mixin flex-raw-start {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+@mixin flex-raw-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin flex-raw-end {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@mixin flex-raw-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
