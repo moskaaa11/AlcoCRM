@@ -11,6 +11,7 @@ import Finance from '../components/Pages/Finance'
 import Recipe from '../components/Pages/Recipe'
 import Storage from '../components/Pages/Storage'
 import Statistic from '../components/Pages/Statistic'
+import Processing from '../components/Pages/Processing'
 
 
 
@@ -41,6 +42,9 @@ const router = createBrowserRouter([
             },{
                 path: PATH.Statistic,
                 element: <Statistic/>
+            },{
+                path: PATH.Processing,
+                element: <Processing/>
             }
         ]
     }

@@ -42,6 +42,26 @@ const MainBarLinks = [
 },{
     "id": 3,
     "parent_id": 1,
+    "title": "Processing",
+    "url": "/Processing",
+    "cover": {
+        "id": 1,
+        "mime_type": "image/svg+xml",
+        "original": "",
+        "alt": null,
+        "conversions": {
+            "icon": "Processing",
+            "large": "",
+            "thumb": "",
+            "original": "",
+            "large-mobile": "",
+            "thumb-mobile": ""
+        }
+    },
+    "children": []
+},{
+    "id": 4,
+    "parent_id": 1,
     "title": "Finance",
     "url": "/Finance",
     "cover": {
@@ -60,7 +80,7 @@ const MainBarLinks = [
     },
     "children": []
 },{
-    "id": 4,
+    "id": 5,
     "parent_id": 1,
     "title": "Recipe",
     "url": "/Recipe",
@@ -80,7 +100,7 @@ const MainBarLinks = [
     },
     "children": []
 },{
-    "id": 5,
+    "id": 6,
     "parent_id": 1,
     "title": "Storage",
     "url": "/Storage",
@@ -100,7 +120,7 @@ const MainBarLinks = [
     },
     "children": []
 },{
-    "id": 6,
+    "id": 7,
     "parent_id": 1,
     "title": "Statistic",
     "url": "/Statistic",
@@ -120,7 +140,7 @@ const MainBarLinks = [
     },
     "children": []
 },{
-    "id": 7,
+    "id": 8,
     "parent_id": 1,
     "title": "Settings",
     "url": "/Settings",

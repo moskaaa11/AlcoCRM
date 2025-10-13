@@ -3,7 +3,8 @@
 .Navbar{
   @include flex-raw-between;
   background: $color-main-background;
-  width: 100%
+  width: 100%;
+  border-bottom: solid 4px $color-text-primary;
 }
 
 .list{
@@ -29,4 +30,5 @@
   background: $color-second-background;
   color: #000000;
   font-weight: bold;
+  border-bottom: solid 2px $color-text-primary;
 }
