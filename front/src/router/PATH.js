@@ -7,5 +7,6 @@ export const PATH ={
     Statistic: '/Statistic',
     Recipe: '/Recipe',
     Settings: '/Settings',
-    Processing: '/Processing'
+    Processing: '/Processing',
+    Exit: '/Exit'
 }

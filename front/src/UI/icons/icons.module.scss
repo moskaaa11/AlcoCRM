@@ -1,0 +1,17 @@
+@import '../../scss/variables.scss';
+
+.icon {
+    font-size: $font40;
+
+    @media screen and (max-width: 1200px)  {
+      font-size: $font18;
+    }
+
+    @media screen and (max-width: 700px)  {
+      font-size: $font8;
+    }
+
+    @media screen and (max-width: 370px)  {
+      font-size: $font4;
+    }
+}

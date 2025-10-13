@@ -22,6 +22,29 @@
     align-items: center;
     font-size: $font32;
     gap: 10px;
+
+    @media screen and (max-width: 1700px)  {
+      font-size: $font18;
+    }
+
+    @media screen and (max-width: 1200px)  {
+      font-size: $font12;
+      gap:5px;
+    }
+
+    @media screen and (max-width: 1000px)  {
+      font-size: $font10;
+    }
+
+    @media screen and (max-width: 700px)  {
+      font-size: $font8;
+      padding: 1px;
+      gap: 2px;
+    }
+
+    @media screen and (max-width: 370px)  {
+      font-size: $font4;
+    }
   }
 }
 

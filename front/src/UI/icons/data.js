@@ -1,3 +1,4 @@
+import classes from './icons.module.scss'
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import RequestQuoteOutlinedIcon from '@mui/icons-material/RequestQuoteOutlined';
 import MonetizationOnOutlinedIcon from '@mui/icons-material/MonetizationOnOutlined';
@@ -6,16 +7,17 @@ import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import AnalyticsOutlinedIcon from '@mui/icons-material/AnalyticsOutlined';
 import WarehouseOutlinedIcon from '@mui/icons-material/WarehouseOutlined';
 import BlenderOutlinedIcon from '@mui/icons-material/BlenderOutlined';
+import ExitToAppOutlinedIcon from '@mui/icons-material/ExitToAppOutlined';
 
 const icons = {
-    Home: <HomeOutlinedIcon style={{fontSize: '40px'}}/>,
-    Budget: <RequestQuoteOutlinedIcon style={{fontSize: '40px'}}/>,
-    Finance: <MonetizationOnOutlinedIcon style={{fontSize: '40px'}}/>,
-    Recipe: <ReceiptLongOutlinedIcon style={{fontSize: '40px'}}/>,
-    Settings: <SettingsOutlinedIcon style={{fontSize: '40px'}}/>,
-    Statistic: <AnalyticsOutlinedIcon style={{fontSize: '40px'}}/>,
-    Processing: <BlenderOutlinedIcon style={{fontSize: '40px'}}/>,
-    Storage: <WarehouseOutlinedIcon style={{fontSize: '40px'}}/>
+    Home: <HomeOutlinedIcon className={classes.icon}/>,
+    Budget: <RequestQuoteOutlinedIcon className={classes.icon}/>,
+    Finance: <MonetizationOnOutlinedIcon className={classes.icon}/>,
+    Recipe: <ReceiptLongOutlinedIcon className={classes.icon}/>,
+    Settings: <SettingsOutlinedIcon className={classes.icon}/>,
+    Statistic: <AnalyticsOutlinedIcon className={classes.icon}/>,
+    Processing: <BlenderOutlinedIcon className={classes.icon}/>,
+    Storage: <WarehouseOutlinedIcon className={classes.icon}/>,
+    Exit: <ExitToAppOutlinedIcon className={classes.icon}/>
 }
-
 export default icons;

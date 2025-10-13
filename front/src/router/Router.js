@@ -12,7 +12,7 @@ import Recipe from '../components/Pages/Recipe'
 import Storage from '../components/Pages/Storage'
 import Statistic from '../components/Pages/Statistic'
 import Processing from '../components/Pages/Processing'
-
+import Exit from '../components/Pages/Exit'
 
 
 const router = createBrowserRouter([
@@ -45,6 +45,9 @@ const router = createBrowserRouter([
             },{
                 path: PATH.Processing,
                 element: <Processing/>
+            },{
+                path: PATH.Exit,
+                element: <Exit/>
             }
         ]
     }

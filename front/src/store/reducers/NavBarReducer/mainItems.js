@@ -159,6 +159,26 @@ const MainBarLinks = [
         }
     },
     "children": []
+},{
+    "id": 8,
+    "parent_id": 1,
+    "title": "Exit",
+    "url": "/Exit",
+    "cover": {
+        "id": 1,
+        "mime_type": "image/svg+xml",
+        "original": "",
+        "alt": null,
+        "conversions": {
+            "icon": "Exit",
+            "large": "",
+            "thumb": "",
+            "original": "",
+            "large-mobile": "",
+            "thumb-mobile": ""
+        }
+    },
+    "children": []
 },
 ]
 
