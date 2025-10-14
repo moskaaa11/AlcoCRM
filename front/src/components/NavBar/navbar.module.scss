@@ -5,6 +5,8 @@
   background: $color-main-background;
   width: 100%;
   border-bottom: solid 4px $color-text-primary;
+  position: sticky;
+  top: 0;
 }
 
 .list{
@@ -36,14 +38,16 @@
       font-size: $font10;
     }
 
-    @media screen and (max-width: 700px)  {
+    @media screen and (max-width: 760px)  {
       font-size: $font8;
       padding: 1px;
       gap: 2px;
     }
 
-    @media screen and (max-width: 370px)  {
-      font-size: $font4;
+    &__text{
+      @media screen and (max-width: 500px)  {
+        display: none;
+      }
     }
   }
 }

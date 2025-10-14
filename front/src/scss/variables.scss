@@ -1,11 +1,12 @@
 // light version
 $color-main-background: rgb(253, 241, 133);;
 $color-second-background: #ffe100;
-$color-primary: #007AFF;
+$color-primary: #9e9e9a;
 $color-text-primary: #141515;
 $color-text-secondary: #7A8699;
 $color-redlight: #FD5353;
 $color-primary-highlight: #E5F2FF;
+$color-white: #ffff;
 
 // fonts size
 $font4: 4px;
@@ -33,6 +34,14 @@ $fontRegular: 400;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 10px;
+}
+
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
 }
 

@@ -13,8 +13,9 @@ const NavBar = () => {
             {mainList.map((item) => (
                 <li key={item.id}>
                     <NavLink to={item.url} className={({ isActive })=>isActive 
-                        ? classes.list__Activeitem 
-                        : classes.list__item}
+                            ? classes.list__Activeitem 
+                            : classes.list__item
+                        }
                     >
                         <Item value={item.cover.conversions.icon} />
                         <span className={classes.list__item__text}>{item.title}</span>

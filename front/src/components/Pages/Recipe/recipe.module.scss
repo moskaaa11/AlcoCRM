@@ -1,0 +1,83 @@
+@import '../../../scss/variables.scss';
+
+.recipe{
+    width: 100vw;
+    min-height: 100vh;
+    max-height: fit-content;
+    background: $color-primary;
+    @include flex-column-center;
+    gap: 10vh;
+
+    &__title{
+        color: $color-text-primary;
+        font-size: $font32;
+    }
+
+    &__secondTitle{
+        color: $color-text-primary;
+        font-size: $font18;
+    }
+
+    &__form{
+        @include flex-column-center;
+        gap: 10vh;
+        background: $color-primary-highlight;
+        padding: 30px;
+        border-radius: 30px;
+    }
+
+    &__box{
+        @include flex-raw-center;
+        gap: 25vw;
+    }
+
+    &__submitButton{
+        padding: 10px;
+        border-radius: 10px;
+        font-size: $font18;
+        font-weight: $fontMed;
+        background: $color-redlight;
+        cursor: pointer;
+    }
+
+    &__container{
+        @include flex-raw-center;
+        gap: 3px;
+    }
+
+    &__button{
+        background: transparent;
+        border: none;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    &__input{
+        background: transparent;
+        border-radius: 20px;
+        border: 1px solid $color-text-primary;
+        cursor: pointer;
+        padding: 5px;
+        text-align: center;
+    }
+
+    &__inputAdded{
+        background: transparent;
+        border-radius: 20px;
+        border: 1px solid $color-text-primary;
+        cursor: auto;
+        padding: 5px;
+        text-align: center;
+    }
+
+
+    &__main{
+        @include flex-column-center;
+        gap: 5px;
+    }
+
+    &__other{
+        @include flex-column-center;
+        gap: 5px;
+    }
+}
