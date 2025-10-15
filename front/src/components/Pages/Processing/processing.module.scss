@@ -1,0 +1,41 @@
+@import '../../../scss/variables.scss';
+
+.processing{
+    width: 100vw;
+    min-height: 100vh;
+    max-height: fit-content;
+    background: $color-primary;
+    @include flex-column-center;
+    gap: 10vh;
+
+    &__title{
+        color: $color-text-primary;
+        font-size: $font32;
+    }
+
+    &__secondTitle{
+        color: $color-text-primary;
+        font-size: $font18;
+    }
+
+    &__container{
+        @include flex-column-center;
+        gap: 10vh;
+        background: $color-primary-highlight;
+        padding: 30px;
+        border-radius: 30px;
+    }
+
+    &__search{
+        @include flex-raw-start;
+    }
+
+    &__button{
+        @include button;
+    }
+
+}
+
+.processing__container :global(.react-select-processing__control) {
+  @include select
+}

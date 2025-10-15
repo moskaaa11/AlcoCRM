@@ -69,3 +69,21 @@ $fontRegular: 400;
     align-items: center;
     justify-content: center;
 }
+
+@mixin select {
+    border-radius: 25px;
+    background: transparent;
+    border: 1px solid $color-primary;
+    text-align: center;
+    box-shadow: none;
+    width: 20vw;
+}
+
+@mixin button {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: $font18;
+    font-weight: $fontMed;
+    background: $color-redlight;
+    cursor: pointer;
+}

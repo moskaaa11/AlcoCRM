@@ -32,12 +32,7 @@
     }
 
     &__submitButton{
-        padding: 10px;
-        border-radius: 10px;
-        font-size: $font18;
-        font-weight: $fontMed;
-        background: $color-redlight;
-        cursor: pointer;
+        @include button;
     }
 
     &__container{
