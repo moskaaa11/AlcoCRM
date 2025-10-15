@@ -52,6 +52,13 @@ $fontRegular: 400;
     gap: 10px;
 }
 
+@mixin flex-raw-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
 @mixin flex-raw-between {
     display: flex;
     align-items: center;

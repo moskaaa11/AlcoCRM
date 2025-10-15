@@ -6,7 +6,8 @@ const RecipesListSlice = createSlice({
     name: 'recipeslist',
     initialState:{
         recipeslist: recipes,
-        singlerecipe: ''
+        singlerecipe: [],
+        calculation: ''
     },
     reducers:{
         recipesList:(state, action) => {
@@ -17,9 +18,12 @@ const RecipesListSlice = createSlice({
         },
         cleanCard:(state)=>{
             state.singlerecipe = '';
+        },
+        calcList:(state,action)=>{
+            state.calculation = action.payload.credential
         }
     }
 })
 
-export const {recipesList, singleRecipe,cleanCard} = RecipesListSlice.actions;
+export const {recipesList, singleRecipe,cleanCard,calcList} = RecipesListSlice.actions;
 export default RecipesListSlice;

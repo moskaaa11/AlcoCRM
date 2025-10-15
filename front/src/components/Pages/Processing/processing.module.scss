@@ -6,7 +6,6 @@
     max-height: fit-content;
     background: $color-primary;
     @include flex-column-center;
-    gap: 10vh;
 
     &__title{
         color: $color-text-primary;
@@ -18,21 +17,49 @@
         font-size: $font18;
     }
 
+    &__thirdTitle{
+        color: $color-text-primary;
+        font-size: $font16;
+    }
+
     &__container{
         @include flex-column-center;
-        gap: 10vh;
         background: $color-primary-highlight;
         padding: 30px;
         border-radius: 30px;
     }
 
     &__search{
-        @include flex-raw-start;
+        @include flex-raw-center;
+        gap: 20px;
     }
 
     &__button{
         @include button;
     }
+
+    &__box{
+        @include flex-raw-center;
+    }
+
+    &__options{
+        @include flex-column-start;
+       justify-content: flex-start;
+    }
+
+    &__item{
+       @include flex-column-center;
+    }
+
+    &__input{
+        background: transparent;
+        border-radius: 20px;
+        border: 1px solid $color-text-primary;
+        cursor: pointer;
+        padding: 5px;
+        text-align: center;
+    }
+
 
 }
 
